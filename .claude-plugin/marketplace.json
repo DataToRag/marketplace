@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "DataToRag",
+  "description": "Claude Code plugins by DataToRag — persistent memory, MCP integrations, and more",
+  "owner": {
+    "name": "DataToRAG",
+    "email": "support@datatorag.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-pg-mem",
+      "description": "Postgres-native persistent memory for Claude Code — shared across instances and machines via Neon Postgres + pgvector",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DataToRag/claude-pg-mem.git",
+        "sha": "57131f188637fd41f96e8abbed1b3fa11d144b75"
+      },
+      "homepage": "https://github.com/DataToRag/claude-pg-mem"
+    },
+    {
+      "name": "datatorag",
+      "description": "Connect Claude to Google Workspace, Atlassian, and more via MCP",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DataToRag/mcp-gateway.git",
+        "sha": "68dbe66b113c4e8034f81c508ed82d75f25c8b27"
+      },
+      "homepage": "https://datatorag.com"
+    }
+  ]
+}
