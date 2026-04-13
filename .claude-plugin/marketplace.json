@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "DataToRag",
+  "name": "datatorag",
   "description": "Claude Code plugins by DataToRag — persistent memory, MCP integrations, and more",
   "owner": {
     "name": "DataToRAG",
