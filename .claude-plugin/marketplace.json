@@ -19,7 +19,7 @@
       "homepage": "https://github.com/DataToRag/claude-pg-mem"
     },
     {
-      "name": "datatorag",
+      "name": "datatorag-mcp",
       "description": "Connect Claude to Google Workspace, Atlassian, and more via MCP",
       "category": "productivity",
       "source": {
